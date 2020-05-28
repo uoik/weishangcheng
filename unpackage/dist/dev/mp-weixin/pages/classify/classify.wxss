@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* 主题颜色变量 */
+/* 页面背景色 */
+/* 字体颜色 */
+/* 边框颜色 */
+/* 边框阴影 */
+/* 按钮颜色 */
+/* 选项卡颜色 */
+/* 评论页面颜色 */
+page {
+  height: 100%;
+}
+.container {
+  height: 100%;
+}
+.header {
+  position: relative;
+  height: calc(25px + 100rpx);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 30rpx;
+  padding-top: calc(25px + 30rpx);
+  border-bottom: 1rpx solid #E5E5E5;
+}
+.header .iconfont {
+  position: absolute;
+  left: 30rpx;
+}
+.header .text {
+  margin: 0 auto;
+}
+.classify {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: calc(100% - 25px - 100rpx);
+}
+.classify .left {
+  width: 150rpx;
+  height: 100%;
+  border-right: 1px solid #E5E5E5;
+  font-size: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.classify .left view {
+  padding: 25rpx;
+  text-align: center;
+}
+.classify .left .active {
+  color: #FF4400;
+  border-left: 2px solid #FF4400;
+}
+.classify .right {
+  width: 600rpx;
+  height: 100%;
+  padding: 0 50rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+

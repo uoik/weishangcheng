@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* 主题颜色变量 */
+/* 页面背景色 */
+/* 字体颜色 */
+/* 边框颜色 */
+/* 边框阴影 */
+/* 按钮颜色 */
+/* 选项卡颜色 */
+/* 评论页面颜色 */
+.content {
+  color: #333333;
+  font-size: 30rpx;
+  text-align: center;
+}
+.content .iconfont {
+  background: #F8F8F8;
+  color: #FFFFFF;
+  border-radius: 60rpx;
+  margin: 60rpx auto 30rpx;
+  width: 120rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  font-size: 50rpx;
+}
+

@@ -1,0 +1,11 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "uni-swiper-dot": "/components/uni-swiper-dot/uni-swiper-dot",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "goods-nav": "/components/goodsNavComp/goodsNavComp",
+    "uni-popup-param": "/components/uni-popup/uni-popup-param",
+    "user-evaluation": "/components/userEvaluationComp/userEvaluationComp"
+  }
+}

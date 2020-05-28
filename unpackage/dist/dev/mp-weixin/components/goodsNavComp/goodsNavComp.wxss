@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* 主题颜色变量 */
+/* 页面背景色 */
+/* 字体颜色 */
+/* 边框颜色 */
+/* 边框阴影 */
+/* 按钮颜色 */
+/* 选项卡颜色 */
+/* 评论页面颜色 */
+.goods-nav {
+  width: 750rpx;
+  position: fixed;
+  bottom: 0;
+  background: #FFFFFF;
+  height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.goods-nav .goods-icon-list {
+  border-top: 1px solid #E5E5E5;
+  font-size: 22rpx;
+  color: #333333;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  width: 400rpx;
+}
+.goods-nav .goods-icon-list .goods-icon-item {
+  position: relative;
+  width: 100rpx;
+  text-align: center;
+}
+.goods-nav .goods-icon-list .goods-icon-item view {
+  height: 50rpx;
+  line-height: 60rpx;
+  font-size: 38rpx;
+  margin-bottom: 5rpx;
+}
+.goods-nav .goods-icon-list .goods-icon-item .icon-gouwuche {
+  font-size: 28rpx;
+}
+.goods-nav .goods-icon-list .goods-icon-item .goods-corner {
+  position: absolute;
+  top: 4rpx;
+  right: 16rpx;
+  border-radius: 50%;
+  height: 0rpx;
+  width: 30rpx;
+  font-size: 16rpx;
+  line-height: 30rpx;
+  color: #FFFFFF;
+  background: #FF4400;
+}
+.goods-nav .goods-icon-list .goods-icon-item .goods-corner.show {
+  height: 30rpx;
+}
+.goods-nav .goods-btn {
+  background: #FF4400;
+  text-align: center;
+  line-height: 100rpx;
+  width: 350rpx;
+  font-size: 28rpx;
+  color: #FFFFFF;
+}
+

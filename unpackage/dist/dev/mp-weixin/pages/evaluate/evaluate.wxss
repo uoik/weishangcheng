@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* 主题颜色变量 */
+/* 页面背景色 */
+/* 字体颜色 */
+/* 边框颜色 */
+/* 边框阴影 */
+/* 按钮颜色 */
+/* 选项卡颜色 */
+/* 评论页面颜色 */
+page {
+  background: #F8F8F8;
+}
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+  padding: 25px 20rpx 30rpx;
+  text-align: center;
+  font-size: 30rpx;
+  line-height: 45rpx;
+  border-bottom: 1px solid #E5E5E5;
+}
+.header .left {
+  position: absolute;
+  left: 20rpx;
+}
+.header .title {
+  margin: 0 auto;
+}
+.header .right {
+  position: absolute;
+  right: 20rpx;
+}
+.tags-container {
+  background: #FFFFFF;
+  padding: 0 20rpx;
+  font-size: 24rpx;
+  color: #333333;
+}
+.tags-container .rate {
+  padding: 20rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border-bottom: 1px solid #E5E5E5;
+}
+.tags-container .rate text {
+  margin-right: 6rpx;
+  color: #FF4400;
+}
+.tags-container .tags {
+  padding: 20rpx 0 5rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  font-size: 24rpx;
+}
+.tags-container .tags .tag {
+  border-radius: 10rpx;
+  padding: 8rpx 30rpx;
+  background: #FFE4E1;
+  margin: 0 15rpx 15rpx 0;
+}
+.tags-container .tags .active {
+  background: #FF4400;
+  color: #FFFFFF;
+}
+.container {
+  margin-top: 20rpx;
+  background: #FFFFFF;
+}
+.container .item {
+  padding: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  border-bottom: 1rpx solid #E5E5E5;
+}
+.container .item .head {
+  margin-right: 20rpx;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  width: 80rpx;
+  height: 80rpx;
+}
+.container .item .head image {
+  border-radius: 10rpx;
+  width: 100%;
+  height: 100%;
+}
+.container .item .content {
+  font-size: 26rpx;
+}
+.container .item .content .name {
+  font-size: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding-bottom: 10rpx;
+  color: #0062CC;
+  line-height: 56rpx;
+}
+.container .item .content .name .iconfont {
+  font-size: 40rpx;
+  color: #F78714;
+}
+.container .item .content .name .iconfont text {
+  display: inline-block;
+  -webkit-transform: translateY(-6rpx);
+          transform: translateY(-6rpx);
+  margin-left: 10rpx;
+  font-size: 24rpx;
+}
+.container .item .content .text {
+  margin-bottom: 20rpx;
+}
+.container .item .content .imgs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.container .item .content .imgs .img {
+  margin: 0 10rpx 10rpx 0;
+  width: 190rpx;
+  height: 190rpx;
+}
+.container .item .content .imgs .img image {
+  width: 100%;
+  height: 100%;
+}
+.container .item .content .time {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 10rpx 0;
+  color: #8A8A8A;
+}
+.container .item .content .time .icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.container .item .content .time .icon .zan text,
+.container .item .content .time .icon .pinglun text {
+  padding: 0 4rpx;
+}
+.container .item .content .time .icon .zan {
+  margin-right: 10rpx;
+}
+.container .item .content .time .icon .zan .iconfont {
+  font-size: 30rpx;
+}
+.container .item .content .time .icon .zan .active {
+  color: #FF4400;
+}
+.container .item .content .time .icon .pinglun .iconfont {
+  font-size: 30rpx;
+}
+

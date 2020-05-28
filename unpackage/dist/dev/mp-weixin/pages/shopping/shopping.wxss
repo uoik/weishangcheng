@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/* 主题颜色变量 */
+/* 页面背景色 */
+/* 字体颜色 */
+/* 边框颜色 */
+/* 边框阴影 */
+/* 按钮颜色 */
+/* 选项卡颜色 */
+/* 评论页面颜色 */
+page {
+  background: #F8F8F8;
+}
+.shop {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 25px;
+}
+.shop .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+  text-align: center;
+  font-size: 30rpx;
+  border-bottom: 1px solid #E5E5E5;
+  padding: 30rpx 0;
+}
+.shop .title .iconfont {
+  position: absolute;
+  left: 30rpx;
+}
+.shop .title .text {
+  margin: 0 auto;
+}
+.shop .title .edit {
+  position: absolute;
+  right: 30rpx;
+  font-size: 28rpx;
+}
+.shop .order {
+  background: #FFFFFF;
+  position: relative;
+  margin-bottom: 6rpx;
+}
+.shop .order .uni-list-cell {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 30rpx;
+}
+.shop .order .uni-list-cell .radio {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
+  outline: none;
+}
+.shop .order .uni-list-cell .order_info {
+  margin-left: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.shop .order .uni-list-cell .order_info image {
+  border: 2rpx solid #E5E5E5;
+  width: 120rpx;
+  height: 120rpx;
+}
+.shop .order .uni-list-cell .order_info .info {
+  margin-left: 30rpx;
+}
+.shop .order .uni-list-cell .order_info .info .name {
+  font-size: 28rpx;
+  padding: 0;
+}
+.shop .order .uni-list-cell .order_info .info .specific {
+  color: #8A8A8A;
+  padding: 6rpx 0;
+  font-size: 20rpx;
+}
+.shop .order .uni-list-cell .order_info .info .price {
+  color: #FF4400;
+  font-size: 24rpx;
+}
+.shop .order .uni-list-cell .order_info .number_box {
+  position: absolute;
+  right: 0;
+  bottom: 20rpx;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+.shop .icon {
+  text-align: center;
+  background: #FFFFFF;
+  padding: 30rpx 0;
+}
+.shop .icon .iconfont {
+  display: inline-block;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  line-height: 80rpx;
+  color: #8A8A8A;
+  font-size: 50rpx;
+  vertical-align: middle;
+}
+.shop .icon .text {
+  color: gray;
+  font-size: 20rpx;
+  padding: 0 15rpx;
+}
+.shop .icon .btn {
+  color: #000000;
+  font-size: 22rpx;
+  border: 1rpx solid #E5E5E5;
+  padding: 6rpx 15rpx;
+}
+.shop .close {
+  position: fixed;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  background: #FFFFFF;
+  height: 100rpx;
+  line-height: 100rpx;
+  -webkit-box-shadow: inset 0px -15px 10px -15px #CCCCCC;
+          box-shadow: inset 0px -15px 10px -15px #CCCCCC;
+}
+.shop .close .uni-list-cell {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-left: 30rpx;
+  font-size: 28rpx;
+}
+.shop .close .uni-list-cell .radio {
+  -webkit-transform: scale(0.8) translateY(-6rpx);
+          transform: scale(0.8) translateY(-6rpx);
+}
+.shop .close .uni-list-cell view {
+  width: 150rpx;
+}
+.shop .close .uni-list-cell .total {
+  width: 300rpx;
+  padding-left: 30rpx;
+}
+.shop .close .uni-list-cell .total text {
+  color: #FF4400;
+}
+.shop .close .uni-list-cell .total .rmb {
+  display: inline-block;
+  font-size: 20rpx;
+  -webkit-transform: translate(2rpx, -4rpx);
+          transform: translate(2rpx, -4rpx);
+}
+.shop .close .uni-list-cell .total .floating {
+  font-size: 20rpx;
+}
+.shop .close .uni-list-cell .collect {
+  background: #FF4400;
+  text-align: center;
+  color: #FFFFFF;
+  width: 270rpx;
+}
+.shop .close .btn {
+  width: 250rpx;
+  font-size: 28rpx;
+  background: #8A8A8A;
+  text-align: center;
+  color: #FFFFFF;
+}
+.shop .close .btn.active {
+  background: #FF4400;
+}
+.shop .close .delete {
+  background: #FF0000;
+  color: #FFFFFF;
+  width: 300rpx;
+  font-size: 28rpx;
+  text-align: center;
+}
+.shop .pitch {
+  background: #FFFFFF;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 20rpx;
+  width: 375rpx;
+  font-size: 22rpx;
+  color: #000000;
+  text-align: center;
+  position: fixed;
+  bottom: 110rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  border: 1px solid #E5E5E5;
+  padding: 5rpx 10rpx;
+}
+

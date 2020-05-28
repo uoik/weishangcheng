@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///H:/Web_Software/Project/level two/UniApp/micro_mall/main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,kG;AACAA,UAAU,CAACC,gBAAD,CAAV,C","file":"pages/service/service.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pages/service/service.vue'\ncreatePage(Page)"],"sourceRoot":""}
